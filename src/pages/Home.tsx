@@ -2,9 +2,11 @@ import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
 
+import '../styles/auth.scss';
+
 export function Home() {
   return (
-    <div>
+    <div id="page-auth">
       <aside>
         <img
           src={illustrationImg}
@@ -16,13 +18,13 @@ export function Home() {
       </aside>
 
       <main>
-        <div>
+        <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
-          <button>
+          <button className="create-room">
             <img src={googleIconImg} alt="Logo do Google" />
             Crie sua sala com o Google
           </button>
-          <div>Ou entre em uma sala</div>
+          <div className="separator">Ou entre em uma sala</div>
           <form>
             <input
               type="text"
