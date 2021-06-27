@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+![LetMeAsk](.github/logo.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🧪 Tecnologias
 
-### `yarn start`
+- ReactJS
+- Firebase
+- Typescript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Guia de instalação 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Clone o projeto
+```bash 
+  $ git clone git clone https://github.com/Lucas340/Next-Level-Week-6
+  $ cd next-level-week-6
+```
 
-### `yarn test`
+- Instale as dependências
+```bash
+  $ yarn
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Iniciar o projeto
+```bash
+  $ yarn start
+```
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    
+## 📌 Observações
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Lembre-se de preencher o arquivo `.env` para executar a aplicação (você pode seguir o [exemplo](https://github.com/Lucas340/next-level-week-6/blob/main/.env.example)) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
+## 🚧 Recursos
 
-### `yarn eject`
+- [X] Logar
+- [X] Criar uma sala
+- [X] Entrar numa sala
+- [X] Criar uma pergunta
+- [X] Deletar uma pergunta
+- [X] Curtir uma pergunta
+- [X] Deixar uma pergunta destacada
+- [ ] Traduzir a aplicação
+- [ ] Responsividade
+- [ ] Dark Mode
+- [ ] Pagina de "não autorizado"
+- [ ] Pagina de "não encontrado"
+- [ ] Modal
+  
+## 👷 Autores
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [@Lucas340](https://www.github.com/lucas340)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  
+## 💄 Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Cover](.github/cover.svg)
+![Member Join page](.github/member_view.jpg)
+![Admin Join page](.github/admin_view.jpg)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 💜 Feito com a Rocketseat
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Esse projeto foi feito durante o evento [`Next Level Week 6 - Together`](https://github.com/rocketseat-education/nlw-06-reactjs)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
