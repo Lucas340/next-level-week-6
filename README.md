@@ -12,7 +12,7 @@
 
 - Clone o projeto
 ```bash 
-  $ git clone git clone https://github.com/Lucas340/Next-Level-Week-6
+  $ git clone git clone https://github.com/Lucas340/next-level-week-6
   $ cd next-level-week-6
 ```
 
